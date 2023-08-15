@@ -2,7 +2,6 @@ import {
   Flex,
   Circle,
   Box,
-  Image,
   Badge,
   useColorModeValue,
   chakra,
@@ -12,11 +11,9 @@ import {
 import { Link } from "react-router-dom";
 
 function Card({ video }) {
-  //   console.log("Ini video", video);
   const getVideoId = video?.video_url.split("/");
   const data = {
     isNew: true,
-    imageURL: video?.thumbnail_video_url,
     name: video?.title_video,
     sellerAva: video?.seller?.avatar_url,
     sellerName: video?.seller?.username,
@@ -38,7 +35,7 @@ function Card({ video }) {
       shadow="lg"
       position="relative"
     >
-      <Link to={`watch/${video._id}`}>
+      <Link to={`watch/${video._id}`} state={{ youtubeId: data?.videoId }}>
         {data.isNew && (
           <Circle
             size="10px"

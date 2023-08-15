@@ -35,7 +35,7 @@ import {
 //   );
 // };
 
-export default function Navbar() {
+export default function Navbar({ title = "Tokped Play Clone" }) {
   //   const { colorMode, toggleColorMode } = useColorMode();
   //   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -43,7 +43,7 @@ export default function Navbar() {
       <Box bg="green.400" px={[4, 12]} w="full">
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box color="white" fontWeight="bold">
-            Tokped Play Clone
+            {title}
           </Box>
 
           <Flex alignItems={"center"}>

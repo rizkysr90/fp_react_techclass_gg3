@@ -1,11 +1,11 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-function YoutubeEmbed({ videoId }) {
+function YoutubeEmbed({ videoId, width = "560", height = "315" }) {
   return (
     <Box>
       <iframe
-        width="560"
-        height="315"
+        width={width}
+        height={height}
         src={`https://www.youtube.com/embed/${videoId}`}
         title="YouTube Video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
