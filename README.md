@@ -1,6 +1,6 @@
 ## What is it?
 
-Ini adalah repository backend dari final project technical class saya di Generasi Gigih 3.0. Dibuat dengan MERN stack (Mongo, Express, React, Node) Proyek ini dibuat sebagai penyedia API untuk user interface atau frontend sistem tokopedia play clone yang sudah saya buat.
+Ini adalah repository frontend dari final project technical class saya di Generasi Gigih 3.0. Dibuat dengan MERN stack (Mongo, Express, React, Node) Proyek ini dibuat sebagai penyedia API untuk user interface atau frontend sistem tokopedia play clone yang sudah saya buat.
 
 Backend URL : [https://mid-term-gg3-gg3fsgp0488-production.up.railway.app/api/v1](https://mid-term-gg3-gg3fsgp0488-production.up.railway.app/api/v1)
 Frontend URL : [https://fp-react-techclass-gg3.vercel.app](https://fp-react-techclass-gg3.vercel.app/)
